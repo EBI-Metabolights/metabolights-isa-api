@@ -86,13 +86,13 @@ setup(
         'chardet~=4.0.0',
         'jinja2~=3.0.1',
         'beautifulsoup4~=4.9.3',
-        'mzml2isa==1.1.1',
+        'mzml2isa>=1.1.1',
         'biopython~=1.79',
         'progressbar2~=3.53.1',
         'deepdiff~=5.5.0',
-        'PyYAML~=5.4.1',
+        'PyYAML>=5.4.1',
         'bokeh~=2.3.2',
-        'certifi==2021.5.30',
+        'certifi>=2021.5.30',
         'flake8==3.9.2',
         'ddt==1.4.2',
         'behave==1.2.6',
@@ -100,8 +100,8 @@ setup(
         'sure==2.0.0',
         'coveralls~=3.1.0',
         'rdflib~=6.0.2',
-        'Flask~=2.2.2',
-        'flask_sqlalchemy~=3.0.2'
+        'Flask>=2.2.2',
+        'flask_sqlalchemy>=3.0.2'
     ],
     test_suite='tests'
 )
